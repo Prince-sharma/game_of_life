@@ -9,6 +9,8 @@ The universe of the Game of Life is an infinite, two-dimensional orthogonal grid
 - Any live cell with more than three live neighbours dies, as if by overpopulation.
 - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
+#### Live Demo at -> https://prince-sharma.github.io/game_of_life/
+
 ## Approach :
 basically we have to update the given board's cell values according to the 4 rules of game of life. One important thing to note is, we always have to consider the original board's values, while updating a cell's value.
 
