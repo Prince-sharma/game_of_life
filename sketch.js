@@ -148,6 +148,13 @@ function keyTyped() {
       }
     }
   }
+
+  if ( key == 'n' && paused ) {
+    processOneStep();
+    updateGrid();
+    fillGrid();
+    console.log("next step")
+  }
 }
 
 
