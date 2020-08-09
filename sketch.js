@@ -81,7 +81,7 @@ function fillGrid() {
       let x = i * resolution;
       let y = j * resolution;
       if (grid[i][j] == 1) {
-        fill(32,194,14);   // 20, 148, 20 
+        fill(57, 255, 20);   // 20, 148, 20  // better -> 32,194,14
         stroke(0);
         rect(x, y, resolution - 1, resolution - 1);
       }
